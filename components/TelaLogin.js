@@ -43,7 +43,7 @@ export default function TelaLogin({ navigation }) {
     }
 
     // Se usuário e senha forem corretos
-    if (usuario === 'aluno' && senha === '123') {
+    if (usuario === 'ASGATITAS' && senha === 'G04') {
       try {
         // Salva o apelido do usuário no armazenamento local
         await AsyncStorage.setItem('usuarioLogado', apelido); 
